@@ -1,0 +1,38 @@
+p {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#learnMoreButton {
+    background-color: rgb(249 127 255);
+    border: 2px solid rgb(8, 64, 7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: blanchedalmond;
+}
+
+.mainPart {
+    background-color: #4edf5b;
+}
+
+header {
+    background-color: brown;
+}
+
+#homeButton {
+    background-color: beige;
+    text-decoration: none;
+}
+
+h5 {
+    text-align: center;
+}
+
+#loginButton {
+    background-color: rgb(0, 255, 76);
+    border-radius: 5px;
+}

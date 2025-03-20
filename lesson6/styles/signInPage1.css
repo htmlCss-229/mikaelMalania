@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.wrapperDiv {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outerFrame {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    height: 545px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 10px rgb(21, 23, 24);
+    border-radius: 10px;
+}
+
+#welcomeBack {
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    color: #757575;
+    position: relative;
+    top: 30px;
+}
+
+#signInAcc {
+    font-size: 24px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+#yourMail, #yourPass {
+    font-size: 14px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 450;
+    color: #333333;
+
+}
+
+#emailInput, #passwordInput {
+    border: solid 1px #DEDEDE;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 352px;
+}
+
+#continueBtn {
+    background: linear-gradient(70deg, rgba(98,91,247,1) 0%, rgba(70,62,234,1) 100%);
+    width: 357px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: "Mulish", sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+#forgetPass {
+    color: #625BF7;
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    top: 40px;
+}
+
+.welcomeTexts {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.test1 {
+    position: relative;
+}

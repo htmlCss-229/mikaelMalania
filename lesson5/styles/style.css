@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "unicode";
+    src: url("/fonts/3d_unicode.ttf");
+};
+
+#welcomeTxt {
+    font-family: unicode, serif;
+    color: aquamarine;
+}

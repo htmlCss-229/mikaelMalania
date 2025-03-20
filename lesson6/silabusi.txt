@@ -1,0 +1,5 @@
+• flexbox - ის გარჩევა
+• fontawesome / icomon;
+• ფსევდო კლასები
+• border radius
+• კოდის ვალიდაცია

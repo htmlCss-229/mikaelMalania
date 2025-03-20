@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+            .mainWrapper {
+                width: 960px;
+            }
+
+            nav a {
+                color: black;
+                text-underline-offset: 5px;
+                text-decoration-thickness: 5px;
+                font-size: 24px;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 40px;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+            }
+
+            #bouldering {
+                font-size: 64px;
+                font-family: "Roboto", sans-serif;
+                text-align: center;
+            }
+
+            .image1, .image2, .image3 {
+                display: flex;
+                align-items: center;
+            }
+
+            .image1 ul, .image2 ul, .image3 ul {
+                font-size: 18px;
+            }
+
+            .imageCollage {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            #randomText {
+                border: solid 1px black;
+                width: 80%;
+                border-radius: 30px;
+                font-family: "Roboto", sans-serif;
+                padding: 20px;
+                font-size: 24px;
+            }
+
+            .randomTextWrapper {
+                display: flex;
+                justify-content: center;
+            }
+
+            footer {
+                background-color: black;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+            }
+
+            #emailInput, #phoneInput {
+                padding: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div style="background-color: white;" class="mainWrapper">
+            <header>
+                <img src="./images/header.png" alt="Header picture">
+                <nav>
+                    <a href="#"> Schedule </a>
+                    <a href="#"> About the classes </a>
+                    <a href="#"> Club addresses </a>
+                </nav>
+            </header>
+            
+            <main>
+                <p id="bouldering">
+                    Bouldering
+                </p>
+
+                <div class="imageCollage">
+                    <div class="image1">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div>
+                            <!-- Here preventing image to get stretched -->
+                            <img src="./images/image1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="image2">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div>
+                            <!-- Here preventing image to get stretched -->
+                            <img src="./images/image2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="image3">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div>
+                            <!-- Here preventing image to get stretched -->
+                            <img src="./images/image3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="randomTextWrapper">
+                    <p id="randomText">
+                        Never been to a rock gym before? Hurry up and attempt your first climb! Our platforms have rooms of varying difficulties. The trainings are safe, new climbers are protected by automatic safeguards, and the rooms are staffed by instructors. For kids, we have special zones with fun attractions. We offer season tickets, discounts, and a system of individual lessons. Before you visit, please take the time to review the safety <span style="color: blue; text-decoration: underline;                 font-family: Roboto, sans-serif;">rules.</span>
+                    </p>
+                </div>
+            </main>
+            
+            <footer>
+                <input type="text" name="" id="emailInput" placeholder="E-mail:">
+                <input type="text" name="" id="PhoneInput" placeholder="Phone:">
+            </footer>
+        </div>
+    </body>
+</html>

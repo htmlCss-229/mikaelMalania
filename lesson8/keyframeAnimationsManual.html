@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <style>
+            .square {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: squareMover;
+                animation-duration: 5s;
+                animation-timing-function: ease-in; 
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                /* border-radius: 50%; */
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                font-family: 'Trebuchet MS';
+                font-weight: bold;
+                color: rgb(71, 255, 108);
+            }
+
+            @keyframes squareMover {
+                0% {
+                    background-color: red;
+                    left: 0;
+                    top: 0;
+                    color: rgb(71, 255, 108);
+                }
+
+                25% {
+                    background-color: yellow;
+                    left: 82%;
+                    top: 0px;
+                    color: rgb(255, 71, 71);
+
+                }
+
+                50% {
+                    background-color: green;
+                    left: 82%;
+                    top: 87%;
+                    color: rgb(255, 71, 194);
+
+                }
+
+                75% {
+                    background-color: blue;
+                    top: 87%;
+                    left: 0px;
+                    color: rgb(71, 230, 255);
+
+                }
+
+                100% {
+                    background-color: red;
+                    left: 0px;
+                    top: 0px;
+                    color: rgb(71, 255, 108);
+                }
+
+            }
+
+            body {
+                margin: 0;
+            }
+            /* .box {
+                height: 200px;
+                width: 200px;
+                position: relative;
+                background: red;
+                text-transform: uppercase;
+                animation: squareMover 20s 4;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+            
+            h1 {
+                color: black;
+                font: italic 5em sans-serif;
+                letter-spacing: -10px;
+                font-weight: 900;
+                margin: 0 20px;
+                padding-top: 30px;
+            
+            }
+            
+            p {
+                color: white;
+                font: 2em sans-serif;
+                font-weight: 900;
+                margin: 0 45px;
+            }
+            */
+        </style>
+    </head>
+
+    <body>
+        <div class="square">
+            SQUARE
+        </div>
+
+        <!-- <div class="box">
+            <h1>dvd</h1>
+            <p>video</p>
+        </div> -->
+    
+    </body>
+</html>

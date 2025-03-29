@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            .relative {
+                position: relative;
+                width: 500px;
+                height: 500px;
+                border: 5px solid #4646a2;
+            }
+
+            .absolute {
+                position: absolute;
+                /* top: 50px; */
+                /* right: 0px; */
+                /* left: 37%; */
+                top: 40px;
+                width: 100px;
+                height: 100px;
+                background-color: #ffcc00;
+                border: 3px solid #000000;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>
+            Absolute position example
+        </h3>
+
+        <p>
+            If Element has absolute position applied it will position itself to the nearlest positioned ancestor.
+        </p>
+
+        <div class="relative">
+            This div tag has postion: relative applied;
+            <div class="absolute">
+                This div tag has postion: absolute applied;
+            </div>
+        </div>
+    </body>
+</html>

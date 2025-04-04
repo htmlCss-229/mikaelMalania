@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #202020;
+}
+
+.logoPart p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #DEDEDE;
+    position: relative;
+    left: 5px;
+}
+
+.logoPart {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 5%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #323232;
+    height: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    color: #DEDEDE;
+    font-weight: bold;
+}
+
+#welcomeTxt {
+    color: #DEDEDE;
+    font-size: 64px;
+    font-weight: bold;
+    width: 620px;
+}
+
+#helpingBusiness {
+    color: #959595;
+    font-size: 24px;
+    font-weight: 400;
+    width: 480px;
+}
+
+#contactBtn {
+    width: 400px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: #9D9D9D;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#contactBtn div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 185px;
+    font-size: 18px;
+    color: white;
+}
+
+.leftAndRightMerger {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.mainLeft {
+    width: 50%;
+}
+
+.mainRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

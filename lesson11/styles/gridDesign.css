@@ -1,0 +1,50 @@
+:root {
+    --grid-area-color: rgb(45, 144, 114);
+    --global-padding: 10px;
+} 
+
+
+.header {
+    grid-area: header;
+    background-color: var(--grid-area-color);
+}
+
+.menu {
+    grid-area: menu;
+    background-color: var(--grid-area-color);
+}
+
+.main {
+    grid-area: main;
+    background-color: var(--grid-area-color);
+}
+
+.right {
+    grid-area: right;
+    background-color: var(--grid-area-color);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: var(--grid-area-color);
+}
+
+.gridExample {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: rgb(42, 140, 176);
+    padding: 10px;
+}
+
+.gridExample > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    font-family:'Lucida Sans', sans-serif;
+
+}

@@ -1,0 +1,38 @@
+p::first-letter {
+    font-size: 50px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+p::first-line {
+    font-size: 20px;
+    color: blue;
+    text-transform: lowercase;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+
+::marker {
+    content: "❤️";
+    color: green;
+    margin-right: 10px;
+}
+
+::selection {
+    background-color: rgb(255, 0, 98);
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p::after {
+  content: url("https://example.com/image.jpg");
+}
+
+p::before {
+  content: " 0 Remember this";
+}

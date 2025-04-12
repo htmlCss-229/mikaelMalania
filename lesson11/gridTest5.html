@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Test 5</title>
+    <style>
+      .div1 {
+        grid-area: area1;
+      }
+
+      .div2 {
+        grid-area: area2;
+      }
+
+      .div5 {
+        grid-area: area5;
+      }
+
+      .row2 {
+        grid-area: row2;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 5px;
+        height: 100px;
+      }
+
+      .container div,
+      .div3,
+      .div4 {
+        background-color: lightblue;
+        text-align: center;
+        font-size: 30px;
+        border: 1px solid black;
+      }
+
+      .container {
+        display: grid;
+        grid-template-areas: 
+          'area1 area2'
+          'row2 row2'
+          'area5 area5';
+        grid-template-columns: 1fr 1fr;
+        background-color: cadetblue;
+        padding: 5px;
+        gap: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Grid Layout</h1>
+
+    <p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
+
+    <p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+
+    <div class="container">
+      <div class="div1">1</div>
+      <div class="div2">2</div>
+      <div class="row2">
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+      </div>
+      <div class="div5">5</div>
+    </div>
+  </body>
+</html>

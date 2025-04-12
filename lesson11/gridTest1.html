@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.container {
+		display: grid;
+        grid-template-areas: 
+            'header header header header'
+            'menu content content content'
+            'menu footer footer footer';
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        background-color: cadetblue;
+        padding: 5px;
+	}
+    
+    .header {
+		grid-area: header;
+        background-color: bisque;
+        text-align: center;
+	}
+
+    .menu {
+        grid-area: menu;
+        background-color: darkgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu a {
+        color: rgb(156, 82, 82);
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .content {
+        grid-area: content;
+        background-color: lightcoral;
+        padding: 10px;
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: lightgreen;
+    }
+</style>
+</head>
+<body>
+
+<h1>CSS Grid Layout</h1>
+
+<p>The Grid Layout Module offers a grid-based layout system, with rows and columns.</p>
+<p>The Grid Layout Module makes it easy to design complex and responsive web pages without using floats and positioning:</p>
+
+<div class="container">
+  <div class="header"><h2>My Header</h2></div>
+  <div class="menu"><a href="#">Link 1</a><br><a href="#">Link 2</a><br><a href="#">Link 3</a></div>
+  <div class="content"><h3>Lorem Ipsum</h3><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ridiculus sit nisl laoreet facilisis aliquet. Potenti dignissim litora eget montes rhoncus sapien neque urna. Cursus libero sapien integer magnis ligula lobortis quam ut.</p></div>
+  <div class="footer">
+    <ol type="I">
+        <li>My Footer</li>
+        <li>My Footer</li>
+        <li>My Footer</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
+
+

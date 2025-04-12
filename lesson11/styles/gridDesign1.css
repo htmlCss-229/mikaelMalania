@@ -1,0 +1,27 @@
+.gridExample {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1e90ff;
+    padding: 10px;
+}
+
+.gridExample > div {
+    background-color: #ff8d1e;
+    border: 2px solid #021504;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.item9 {
+    grid-column: span 2;
+    height: 50px;
+}
+
+.item1 {
+    grid-row: span 2;
+}
+
+.item7 {
+    grid-row: span 2;
+}

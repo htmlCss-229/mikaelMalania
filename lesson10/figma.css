@@ -1,0 +1,15 @@
+body{
+    background-color: #202020 ;
+    margin: 0;
+}
+
+#logoWrapper{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    left: 95px;
+} 
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      .div1 {
+        grid-area: area1;
+      }
+
+      .div2 {
+        grid-area: area2;
+      }
+
+      .div3 {
+        grid-area: area3;
+      }
+
+      .div4 {
+        grid-area: area4;
+      }
+
+      .div5 {
+        grid-area: area5;
+      }
+
+      .div6 {
+        grid-area: area6;
+      }
+
+      .div7 {
+        grid-area: area7;
+      }
+
+      .div8 {
+        grid-area: area8;
+      }
+
+      .container div {
+        background-color: lightblue;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        border: 1px solid black;
+      }
+
+      .container {
+        display: grid;
+        grid-template-areas: 
+          'area1 area2 area3 area4'
+          'area1 area5 area7 area8'
+          'area6 area6 area6 area6';
+        gap: 15px;
+        background-color: cadetblue;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h1>Grid Layout</h1>
+
+    <p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
+
+    <p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+
+    <div class="container">
+      <div class="div1">1</div>
+      <div class="div2">2</div>
+      <div class="div3">3</div>  
+      <div class="div4">4</div>
+      <div class="div5">5</div>
+      <div class="div6">6</div>  
+      <div class="div7">7</div>
+      <div class="div8">8</div>
+    </div>
+
+  </body>
+</html>
+
+

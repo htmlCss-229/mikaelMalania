@@ -1,0 +1,15 @@
+:root {
+    --chveni_feri: #cd32c3;
+}
+
+#text1 {
+    color: var(--chveni_feri);
+}
+
+#text2 {
+    color: var(--chveni_feri);
+}
+
+#text3 {
+    color: var(--chveni_feri);
+} 

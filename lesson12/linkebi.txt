@@ -1,0 +1,3 @@
+https://developer.x.com/en/docs/twitter-for-websites/cards/overview/markup
+https://ogp.me
+https://www.w3schools.com/tags/tag_meta.asp

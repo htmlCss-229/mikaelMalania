@@ -1,0 +1,35 @@
+<html>
+    <head></head>
+    <body>
+        <form action="#" style="border: 1px solid; padding: 20px; width: 200px;">
+            <label for="password">Enter your password</label>
+            <br>
+            <br>
+            <input type="text" id="password" name="password" required onkeyup="passwordValidator()">
+            <p id="res"></p>
+            <button>Submit</button>
+        </form>
+
+        <script>
+            const form = document.querySelector('form');
+            const passwordInput = document.getElementById('password');
+            const res = document.getElementById('res');
+            const button = document.querySelector('button');
+
+            function passwordValidator() {
+                const password = passwordInput.value;
+
+                if (password.length < 8) {
+                    res.style = 'red';
+                    res.textContent = 'Password must be at least 8 characters long.';
+                    // button.style.display = 'none';
+                    button.disabled = true;
+                } else {
+                    res.textContent = '';
+                    button.disabled = false;
+                    // button.style.display = 'block';
+                }
+            }
+        </script>
+    </body>
+</html>

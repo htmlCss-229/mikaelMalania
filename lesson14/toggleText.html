@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            button {
+                margin: 10px;
+                padding: 10px;
+                cursor: pointer;
+                font-size: 18px;
+                background-color: #2e20ae;
+                color: #ccc;
+                border: none;
+                border-radius: 10px;
+                text-align: center;
+                display: inline-block;
+                width: 150px;
+                overflow: hidden;
+            }
+
+            p {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <button onclick="togglePTag()">
+            Show Text
+        </button>
+        <p>
+            This text will be shown or hidden depending on the state of a button click
+        </p>
+
+        <script src="./scripts/actions.js"></script>
+    </body>
+</html>
